@@ -17,8 +17,6 @@
     "@vue/cli-plugin-eslint": "~4.5.15",
     "@vue/cli-service": "~4.5.15",
     "@vue/compiler-sfc": "^3.0.0",
-    "babel-eslint": "^10.1.0",
-    "browser-sync": "2.26.7",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0"
   },
@@ -31,26 +29,8 @@
       "plugin:vue/vue3-essential",
       "eslint:recommended"
     ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
     "rules": {}
   },
-  "browserslist": [
-    "last 2 versions",
-    "not dead",
-    "not ie <= 11",
-    "> 1%"
-  ],
-  "_id": "pognali-20@",
-  "editorconfig-cli": [
-    "*.json",
-    "*.js",
-    "source/*.html",
-    "source/js/**/*.js",
-    "source/img/**/*.svg",
-    "source/less/**/*.less"
-  ],
   "engines": {
     "node": "16.16.0"
   },
